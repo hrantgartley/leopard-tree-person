@@ -7,6 +7,7 @@ type Person struct {
 	address   string
 	age       int
 	isStudent bool
+	gpa       float32 // TODO: Add a GPA field to the Person struct
 }
 
 func newPerson(n string, add string, a int, student bool) *Person {
